@@ -1,0 +1,27 @@
+.Container_cards {
+  width: 100%;
+  border-top: 1px solid rgb(20, 43, 119);
+  background-image: url(../Images/sea2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mini-cards {
+  padding-top: 50px;
+  font-size: 18px;
+  display: flex;
+  color: #fff;
+  padding-left: 60px;
+}
+.mini-cards img {
+  width: 40px;
+  height: 40px;
+}
+.Container_cards p {
+  color: black;
+  background-color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+}

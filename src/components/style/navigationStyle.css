@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+  margin: 0;
+}
+.Navigation {
+  font-size: 18px;
+}
+.Navigation a {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+.log-in {
+  margin-left: 1250px;
+}
+.MeInfo {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+}
+.MeInfo h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  color: rgba(255, 255, 255, 0.856);
+  font-weight: 600;
+}
+.First_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.First_block h2 {
+  text-align: center;
+}
+#exampleDataList {
+  width: 60%;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 42px;
+}
+.First_block img {
+  width: 30%;
+
+  height: 545px;
+}
+.intro {
+  width: 60%;
+  background-color: rgb(71, 71, 71);
+  height: 545px;
+  margin: 0 auto;
+}
+.intro h2 {
+  font-size: 72px;
+  color: white;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+.intro a {
+  text-decoration: none;
+  color: rgb(163, 163, 163);
+  font-size: 42px;
+  margin-left: 40px;
+}
+.intro a:hover {
+  color: rgb(0, 133, 133);
+}
+#btn-inf2 {
+  cursor: pointer;
+  margin-left: 45%;
+  background: rgb(0, 84, 133);
+  border: none;
+}
+#btn-inf2:hover {
+  border: 2px solid rgb(66, 165, 0);
+}
+#btn-inf2 img {
+  position: relative;
+  right: 20px;
+  width: 80px;
+  height: 75px;
+}
+.prom-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  color: #f14814;
+}
+.box h3 {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 42px;
+}
+.box h1 {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 42px;
+}
+.prom-memory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Context {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+#down {
+  text-align: center;
+  font-size: 72px;
+}
+.block1 {
+  width: 100%;
+  display: flex;
+  height: 400px;
+}
+.block2 {
+  width: 100%;
+  display: flex;
+  height: 500px;
+}
+.block1 h1 {
+  font-size: 64px;
+  width: 60%;
+  background-color: #3700cf36;
+  height: 400px;
+}
+
+/* Image */
+.block1 img {
+  width: 40%;
+  background-color: #51c210;
+  height: 400px;
+}
+.block2 img {
+  width: 60%;
+  background-color: #51c210;
+  height: 500px;
+}
+.block2 h1 {
+  width: 40%;
+  background-color: #3700cf36;
+  height: 500px;
+  font-size: 64px;
+}
+
+.block2 a {
+  text-decoration: none;
+}
+.block2 b:hover {
+  color: #4bce00;
+}
+.block2 b {
+  color: rgb(128, 150, 123);
+}
+
+.Footer {
+  background-color: #3f3b3d;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 8%;
+}
+
+.Footer h1 {
+  color: #fff;
+  font-size: 42px;
+}
+.Footer form {
+  width: 40%;
+}
+.Social {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Social h2 {
+  color: #3f3b3d;
+}
+.Social-item {
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+  width: 30%;
+  font-size: 24px;
+  color: #73ff00;
+  height: 200px;
+  background-color: rgb(230, 227, 227);
+}
+.Social-item h2:hover {
+  color: #fff;
+}
+.Social-item-context img {
+  width: 50px;
+  height: 50px;
+}
+.Social-item-context h3 {
+  color: rgb(56, 56, 56);
+}
+form label {
+  font-size: 42px;
+  color: #fff;
+}
+#exampleFormControlInput1 {
+  font-size: 24px;
+}
+#FormControlTextarea1 {
+  font-size: 18px;
+}
+
+/* Size//////////////////////////////////// */
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.Main {
+  background: #969696;
+  height: 100vh;
+}

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+#profileImage {
+  border-radius: 50%;
+}
+h1 b {
+  color: white;
+}
+.header h1 {
+  color: rgb(141, 0, 0);
+}
+.Social_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*   Sushi Card  */
+.Sushicard {
+  padding: 10px;
+  width: 350px;
+  min-height: 360px;
+  margin: 5%;
+  background-color: white;
+}
+.Sushicard h5 {
+  font-family: "Koulen", cursive;
+}
+.Sushicard p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(0, 0, 0);
+}
+.Sushicard:hover {
+  box-shadow: 3px 4px 10px rgb(88, 88, 88);
+  background-color: rgb(238, 238, 238);
+}
+.Sushicard img {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.card {
+  padding: 10px;
+  width: 250px;
+  min-height: 260px;
+  margin: 5%;
+  background-color: white;
+}
+.card h5 {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(31, 123, 93);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.card p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: brown;
+}
+.card:hover {
+  box-shadow: 3px 4px 10px rgb(88, 88, 88);
+  background-color: rgb(238, 238, 238);
+}
+.card img {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+}
+/* About */
+.about h1 {
+  text-align: center;
+  font-size: 32px;
+}
+.about p {
+  padding: 10px;
+  margin: 0 auto;
+  text-align: left;
+  width: 70%;
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(205, 205, 205, 0.256);
+  font-family: "BIZ UDMincho", serif;
+}
+.about p a {
+  text-decoration: none;
+  color: rgb(121, 35, 35);
+}
+.about p a:hover {
+  color: rgb(255, 255, 255);
+}
+.about b {
+  color: rgb(253, 253, 253);
+  font-family: "Lobster", cursive;
+}
+.footer {
+  padding-bottom: 20px;
+}
+.containerProjects {
+  width: 100%;
+  background-color: black;
+  height: 45vh;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+.containerProjects h1 {
+  text-align: center;
+  color: #ff8a56;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projects h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #5825a9;
+}

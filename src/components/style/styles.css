@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Info {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Info button {
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+  width: 110px;
+  height: 70px;
+  font-size: 24px;
+}
+.userlist-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+.userlist-container {
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+}
+.user-container {
+  height: 100px;
+  display: flex;
+  border: 1px solid black;
+}
+.userDetail {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  color: red;
+}
+.first-name {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: bold;
+}
+.last-name {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: bold;
+}
+.email {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+  background-image: linear-gradient(
+    to left top,
+    #60ac77,
+    #5bfaeb,
+    #8eecff,
+    #c6def7,
+    #d7d7d7
+  );
+  background-repeat: unset;
+}
+.Log-in_title {
+  color: white;
+  font-size: 64px;
+}
+.userdata {
+  width: 20%;
+  padding: 10px;
+  background-color: rgb(56, 56, 56);
+  box-shadow: 3px 4px 10px rgb(138, 216, 221);
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.message_success {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+.container > form {
+  width: 40%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  color: #fff;
+  font-size: larger;
+}
+
+#submit {
+  background: #193c5a !important;
+  border: none;
+  width: 20%;
+  height: 60px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+p {
+  color: red;
+}
+.field input {
+  text-align: left;
+  width: 40%;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+.CarouselContainer {
+  border-bottom: 1px solid red;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.CarouselContainer h1 {
+  text-align: center;
+  font-family: "VT323", monospace;
+}
+.CarouselContainer img {
+  height: 250px;
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.CarouselContainer h3 {
+  margin-bottom: 20px;
+}
+.field label {
+  font-size: 18px;
+  text-align: left;
+  font-family: "VT323", monospace;
+}
+.field {
+  text-align: center;
+}
+.form-check label {
+  font-size: 24px;
+  width: 400px;
+}
+.form-check input {
+  width: 20px;
+  position: relative;
+  top: 25px;
+  height: 20px;
+}
+.field input {
+  width: 150px;
+  height: 30px;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#submit {
+  font-size: 24px;
+}
+.account_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}

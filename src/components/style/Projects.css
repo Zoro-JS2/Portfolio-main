@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap");
+.Projects_container h1 {
+  text-align: center;
+  font-size: 24px;
+}
+h1 b {
+  color: rgb(22, 0, 221);
+}
+.Projects_place {
+  width: 100%;
+}
+.Project_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  cursor: default;
+}
+.card-text {
+  font-size: 18px;
+  color: black;
+}
+.btn-Group_counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.btn-Group_counter button:nth-child(1) {
+  margin-right: 25px;
+  border-radius: 5%;
+}
+.btn-Group_counter button {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(77, 77, 77);
+  border: none;
+  color: white;
+  font-size: 24px;
+}
+.Accept_btn {
+  margin-left: 60px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(193, 255, 134);
+  border: none;
+  color: black;
+  font-size: 24px;
+}
+.button_name {
+  height: 40px;
+  border-radius: 5%;
+  margin-left: 80px;
+}
+.inp_name {
+  margin-left: 20px;
+  height: 25px;
+  font-size: 14px;
+}
+#laught-img {
+  width: 30px;
+  height: 30px;
+  animation: 2s linear 0s infinite alternate anim;
+}
+.instruction-hidden {
+  background-color: rgb(56, 56, 56);
+}
+.hidden-text p {
+  color: white;
+}
+.hidden-text h2 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Signika Negative", sans-serif;
+}
+.hidden-text button {
+  border: none;
+  font-size: 16px;
+  background-color: none;
+  border-radius: 5px;
+  margin: 2px;
+}
+#com-btn {
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: none;
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
