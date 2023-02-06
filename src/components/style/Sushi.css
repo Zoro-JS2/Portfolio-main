@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+.MainInf {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+.image_logo {
+  width: 150px;
+  height: 150px;
+}
+.Cards_Logo {
+  width: 30%;
+}
+.header_card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.header_card-text {
+  font-size: 18px;
+  color: black;
+}
+.header_links {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 30%;
+}
+.header_links a {
+  text-decoration: none;
+  margin-right: 2%;
+}
+.Header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  color: white;
+  padding-left: 100px;
+  padding-right: 40px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.Header h1 {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.Sale {
+  background-color: red;
+  border: 1px solid rgb(170, 2, 2);
+}
+.Main_text {
+  width: 100%;
+  text-align: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.Context {
+  width: 100%;
+}
+.Side-menu {
+  height: 30vh;
+  width: 20%;
+  text-align: center;
+  border-right: 4px solid black;
+}
+.Context-area {
+  width: 100%;
+  display: flex;
+  float: left;
+}
+#flexCheckDefault {
+  margin: 0;
+}
+.NavPath li {
+  font-size: 24px;
+}
+.NavPath a {
+  text-decoration: none;
+}
+.Main_text {
+  margin-bottom: 10px;
+}
+.container_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.card-title {
+  font-size: 24px;
+}
+.Sushicard img {
+  margin: 0 auto;
+  display: flex;
+}
+.categories {
+  display: flex;
+}
+.list-categories {
+  font-size: 24px;
+  margin: 10px;
+  margin: 0 auto;
+}
+.list-categories:hover {
+  cursor: pointer;
+  color: rgb(216, 86, 0);
+}

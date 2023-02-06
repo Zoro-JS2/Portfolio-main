@@ -1,0 +1,135 @@
+.card_web {
+  width: 420px;
+  height: 378px;
+  background: #1c2752e0;
+  border-radius: 2px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+.card_web img {
+  width: 48px;
+  height: 48px;
+  margin-left: 0px;
+  background: none;
+}
+.card_web h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #ffb342;
+  margin-right: 40px;
+}
+.card_web p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+
+  letter-spacing: 0.36px;
+
+  color: #d2d2d2;
+}
+.card_web:hover {
+  background: #233da5;
+}
+.link {
+  text-decoration: underline;
+}
+/* ///////////////////////////////////////////////////// */
+.card_price {
+  padding: 1% 2%;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid rgb(170, 170, 170);
+  margin: 2% 5%;
+}
+.card_price:hover {
+  box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 2px 6px 0px rgba(0, 0, 0, 0.75);
+}
+.header_price {
+  display: flex;
+  justify-content: space-around;
+}
+.price_date {
+  display: flex;
+  justify-content: space-between;
+}
+.price_date h1 {
+  color: #1c2752;
+  margin-right: 20px;
+}
+.card_price p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.32px;
+
+  color: #7e7e7e;
+}
+hr {
+  width: 100%;
+  background: red;
+  margin: 0 auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap");
+.card_price li {
+  list-style: square;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  /* identical to box height, or 159% */
+  font-family: "Stick No Bills", sans-serif;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+
+  color: #7e7e7e;
+}
+.price_btn {
+  height: 68px;
+  width: 300px;
+  background: #ffb342;
+  border: none;
+  border-radius: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.36px;
+
+  color: #1c2752;
+}
+.price_btn:hover {
+  background: #fa9c0f;
+}
+@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
+.price_date h1 {
+  font-family: "Splash", cursive;
+  font-weight: 800;
+  text-shadow: 14px -11px 3px rgba(0, 0, 0, 0.6);
+}
