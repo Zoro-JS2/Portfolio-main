@@ -1,11 +1,8 @@
 # Portfolio
--for start project you need install:
 
-npm i
+# 1 Install all packages
+`npm i`
 
-for server:
-npm i express, mongoose,mongodb,bootstrap
+# Run app
 
-#Start
-
-npm start
+`npm start`
